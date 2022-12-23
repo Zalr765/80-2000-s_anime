@@ -4,7 +4,8 @@
   "description": "",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon bot.js",
+    "start": "node bot.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Zalr765/80-2000-s_anime/issues"
   },
-  "homepage": "https://github.com/Zalr765/80-2000-s_anime#readme"
+  "homepage": "https://github.com/Zalr765/80-2000-s_anime#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.60.0",
+    "nodemon": "^2.0.20"
+  }
 }
