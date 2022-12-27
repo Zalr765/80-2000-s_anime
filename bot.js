@@ -9,6 +9,5 @@ bot.on('message', msg => {
     const chatId = msg.chat.id;
     if(text === '/start'){
         bot.sendMessage(chatId, "Добро пожаловать в бота с аниме периода восьмедесятых по нулевые")
-        bot.sendVideo(chatId, 'https://thumbs.gfycat.com/DearUnlinedBrahmancow-mobile.mp4')
     }
 })
