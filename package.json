@@ -21,6 +21,7 @@
   "dependencies": {
     "easyvk": "^2.8.2",
     "node-telegram-bot-api": "^0.60.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "yandex-disk": "^0.0.8"
   }
 }
