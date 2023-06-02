@@ -8,6 +8,7 @@ class NewAnime{
     }
     sendAnime(){
         bot.sendPhoto(chat_id,
+            
             photo,
             {caption: `*Название* : ${this.name} \n  ${this.description}`, parse_mode: 'Markdown'}
             )
